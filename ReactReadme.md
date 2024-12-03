@@ -75,14 +75,14 @@ React: Instagram, Airbnb, Netflix.
 Angular: Google Workspace, Upwork, PayPal.  
 
 How to Select Between React and Angular?
-Criterion                    	React                                              |       	Angular
-Learning Curve	Easier for beginners; focuses only on UI development.            |        	Steeper due to its opinionated structure and concepts like DI, RxJS, etc.  
-Project Size	Best for smaller, flexible projects or when combined with other libraries. |	Best for large-scale, complex, and enterprise-grade applications.  
-Community Support	Large community with a rich ecosystem of third-party libraries (e.g., Redux, React Router). |	Strong community with extensive official tools and third-party integrations.  
+Criterion                    	React                                  |       	Angular  
+Learning Curve	Easier for beginners; focuses only on UI development.| Steeper due to its opinionated structure and concepts like DI, RxJS, etc.  
+Project Size	Best for smaller, flexible projects or when combined with other libraries.| Best for large-scale, complex, and enterprise-grade applications.  
+Community Support	Large community with a rich ecosystem of third-party libraries (e.g., Redux, React Router).|	Strong community with extensive official tools and third-party integrations.  
 Performance	Excellent performance with libraries for state management and optimization. |	Excellent for apps with heavy logic and reusable components; out-of-the-box optimizations.  
-TypeScript	Optional (can use JavaScript or TypeScript).	| Built-in TypeScript support for type safety.  
-Development Speed	Faster setup for simple apps but slower for large projects due to reliance on additional tools. |	Faster for large projects due to built-in tooling and strict conventions.  
-Maintenance	Flexible but can lead to fragmentation due to reliance on third-party libraries.	| Consistent because Angular provides all necessary tools in one framework.  
+TypeScript	Optional (can use JavaScript or TypeScript).| Built-in TypeScript support for type safety.  
+Development Speed	Faster setup for simple apps but slower for large projects due to reliance on additional tools.|	Faster for large projects due to built-in tooling and strict conventions.  
+Maintenance	Flexible but can lead to fragmentation due to reliance on third-party libraries.| Consistent because Angular provides all necessary tools in one framework.  
 
 
 
