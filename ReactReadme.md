@@ -162,7 +162,29 @@ Navbar   -     side menu      -    pagecontent
 > index.js file code: we imported react, reactDOM, and also bootstrap - which works on jquery and popper.js
 > ```index.js
 
-  
+ ---------------------------------------------------------------------------
+
+ #### REACT JS 19  
+ Step by Step  
+ -b Install Node and NPM  
+ - Install Vite  
+ - Why vite  
+     - Fast dev server and build tool  
+     - Efficient production Build   
+     - Simple COnfiguration  
+     - Typescript support  
+     - SUpports fetures like CSS Pre-Processor, CSS Modules.
+
+  - Open Terminal
+      - npm install vite --save-dev
+      - npm list vite
+      - npm create vite  
+      - project name : ReactProject  
+      - cd ReactProject
+      - npm run dev
+  ![image](https://github.com/user-attachments/assets/38473086-f675-462c-90f8-0c3eed7769e1)
+
+
   
   
   
