@@ -104,20 +104,21 @@ Examples:
 React: Instagram, Airbnb, Netflix.  
 Angular: Google Workspace, Upwork, PayPal.  
 
-How to Select Between React and Angular?
-### Criterion                    	React                                  |       	Angular  
-Learning Curve	Easier for beginners; focuses only on UI development.| Steeper due to its opinionated structure and concepts like DI, RxJS, etc.  
-Project Size	Best for smaller, flexible projects or when combined with other libraries.| Best for large-scale, complex, and enterprise-grade applications.  
-Community Support	Large community with a rich ecosystem of third-party libraries (e.g., Redux, React Router).|	Strong community with extensive official tools and third-party integrations.  
-Performance	Excellent performance with libraries for state management and optimization. |	Excellent for apps with heavy logic and reusable components; out-of-the-box optimizations.  
-TypeScript	Optional (can use JavaScript or TypeScript).| Built-in TypeScript support for type safety.  
-Development Speed	Faster setup for simple apps but slower for large projects due to reliance on additional tools.|	Faster for large projects due to built-in tooling and strict conventions.  
-Maintenance	Flexible but can lead to fragmentation due to reliance on third-party libraries.| Consistent because Angular provides all necessary tools in one framework.  
+How to Select Between React and Angular?  
+<img width="995" height="656" alt="image" src="https://github.com/user-attachments/assets/0a73189e-d50a-4274-9dea-c248b9398c7d" />  
+
 ---------------------------------------------------------------
 
 React is Declarative UI programming.  
-- We mention the state and target component to get the changes and React does take care of it.
 <img width="2048" height="1536" alt="image" src="https://github.com/user-attachments/assets/556eb06f-e6f8-4e9b-af37-bf263917db6e" />
+
+## Type 'React new' in any browser and it give an readymade online React project editor sandbox environment.  
+## 'Create React app' is also other another way to do.  
+## Install node js and you can create by:  npm create vite@latest react-project  
+- npm install  
+- npm run dev
+<img width="2048" height="1536" alt="image" src="https://github.com/user-attachments/assets/5edac598-4678-41bf-9f2f-5f998b038b7c" />
+
 
 
   
