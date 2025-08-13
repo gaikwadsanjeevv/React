@@ -115,84 +115,9 @@ Development Speed	Faster setup for simple apps but slower for large projects due
 Maintenance	Flexible but can lead to fragmentation due to reliance on third-party libraries.| Consistent because Angular provides all necessary tools in one framework.  
 ---------------------------------------------------------------
 
-## Component: 
-Component is a reusable piece of UI that includes with design and functionality.  
-To read data from React Object and render to user. 
-It has a root level component called 'App', It may have children- like Navbar, sidemenu, page content - all can be resused on some other page.  
-
-As you list the components the hirarchy may be formed  :   
-
-                App
-                |
-Navbar   -     side menu      -    pagecontent  
-               |                    |  
-               menu item         Grid        signup 
-
-  In the hirarchy the data can be trasfered from parent to child 
-
-  ### How to build a component? 
-  Component is a class and has state- which renders some data to user-this data is stored in as javaScript object.  
-  and that object is called as a state. 
-  Ex: Food ordering application we want to display food item and price - which is a state.  
-  next we have render method which tells react how the state should be rendered to the user.  
-  The render method actually returns a react element, which has tags telling how data should be rendered to user. 
-  A react element is a simple javascript object that represents ui, Much like a DOM element in javascript  
-  But the difference is react element is called as a virtual DOM and actual dom element is the real dom.  
-  a virtual dom or react element is the dummy representation of real browser dom.  
-  Making changes to virtual dom is easy and consumes very less amount of memory And updates faster in the virtual dom. 
-  Suppose a react component has four text boxes and if there is a state of change for the 1st box then the react make changes only in the first text box rendering the actual dom which makes react work faster than expected. 
-
-  ------------------------------
-
-  ## Setting up React : 
-
-  > we need to download node js whihc has a package manager called NPM, 
-  > from which you require a package called create-react-app which is shipped by npm.  
-  > we also need Babel, webpack additional packages -
-> Open terminal on VSCODE or terminal
-> npm install create-react-app -g //-g is we want it to be globally accessed from any location or else  
-> npx create-react-app my-react-app2
->   cd my-react-app2
-> npm start
-> you will get src and public folder
-> so go to App.js file and make changes - delete the <div> tage code and print something to see output.
-> To develop application from scratch delete files inside src only
-> CREATE A FILE INDEX.JS
-> when you code in jsx the babel which is javaScript compiler converts into JS code
-> index.js file code: we imported react, reactDOM, and also bootstrap - which works on jquery and popper.js
-> ```index.js
-
- ---------------------------------------------------------------------------
-
- #### REACT JS 19  
- Step by Step  
- -b Install Node and NPM  
- - Install Vite  
- - Why vite  
-     - Fast dev server and build tool  
-     - Efficient production Build   
-     - Simple COnfiguration  
-     - Typescript support  
-     - SUpports fetures like CSS Pre-Processor, CSS Modules.
-
-  - Open Terminal
-      - npm install vite --save-dev
-      - npm list vite
-      - npm create vite  
-      - project name : ReactProject  
-      - cd ReactProject
-      - npm run dev
-  ![image](https://github.com/user-attachments/assets/38473086-f675-462c-90f8-0c3eed7769e1)
-
-
-  
-  
-  
-  
-  
-  
-  
-  
+React is Declarative UI programming.  
+- We mention the state and target component to get the changes and React does take care of it.
+<img width="2048" height="1536" alt="image" src="https://github.com/user-attachments/assets/556eb06f-e6f8-4e9b-af37-bf263917db6e" />
 
 
   
