@@ -119,7 +119,12 @@ React is Declarative UI programming.
 - npm run dev
 <img width="2048" height="1536" alt="image" src="https://github.com/user-attachments/assets/5edac598-4678-41bf-9f2f-5f998b038b7c" />
 
-
+### JavaScript Refresher.  
+- React projects use a Build process.  
+- Raw unprocessed React code wont execute in the browser.  
+- JSX is not a default javascript feature.  
+- in addition, the code would not be optimised for production  
+- React project require a build process that transforms your code.  
 
   
 
