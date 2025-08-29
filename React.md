@@ -125,6 +125,34 @@ React is Declarative UI programming.
 - JSX is not a default javascript feature.  
 - in addition, the code would not be optimised for production  
 - React project require a build process that transforms your code.  
+- Adding JS cpode to a website -  between <Script> tags - inline approach but we dont prefer much for large projects. we use dedicated script file.
+- You can put Script tag anywhere in programme add a scr to import the script file.
+- There are ways we want to execute Script we can put defer.
+- <script src = "link" defer> </script>  
+This allows to load script file after certain important elements of html have been uploaded.  
+- next is:
+- <script src = "link" type="module"> </script>  
+which will give way for import statement where we can import script from file A to file B.  
+- In React project you wont find asy script tag, also we dont add.
+- Because React project uses build process.  
+- we have react-script library it process behind the scene and loaded in browser.
+- React uses more JSX code format - HTML code written in javaScript code.
+- Raw, unprocessed React code wont execute in the browser.
+- So React projects require a build process that transforms your code
+**** Import and Export.
+  - Imagine we need to use certain value and want to use in other file.
+  - export let apiKey = "fgysghsfghewgjhswjfgsjdh"; //file1.js    
+  - import {apiKey}  from "./file1" //if we are using build process we can skip .js extension which is added by the build process later.  To use import and export we need to use "type = module" in vannila javascript without build process.
+  - if you need to just export the value directly without creating the variable use default.
+  - export default "fgysghsfghewgjhswjfgsjdh" ALso we can have only one default export profile.
+  - If u have multiple export names including one default then.
+  -  import {apiKey, abc} from "./util.js";
+  -  import * as util from "./util.js"; //this is object will give access to any import by using .
+  -  console.log(util.)   //util. whill show list of all access imports.
+  -  You can use as also as alias to custom name.
+  -  import {apiKey, abc as content} from "./util.js";
+  -  console.log(content);
+  - 
 
   
 
