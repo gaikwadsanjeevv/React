@@ -1,3 +1,11 @@
+## Extension in VSCODE Might be useful for React App.  
+- Thunder client 
+- Live server. 
+- ES7 React/Redux/GraphQL/React-Native snippets  
+- Bracket pair color DLW  
+- Auto Rename tag  
+- Prettier  
+
 ## React Tutorial  
 > React is a JavaScript Library - lightweight - used to build UI, interactive to user, making it dynamic.  
 > While UI framework provides complete soultion to build the front end solution. - Angular  
